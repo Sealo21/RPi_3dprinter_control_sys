@@ -5,6 +5,7 @@ from Pipe_collectData import collectData
 import RPi.GPIO as GPIO
 from configparser import ConfigParser
 import os.path
+import subprocess
 
 # Global variables used in interrupts
 lights_sig_on = False
@@ -21,6 +22,7 @@ light_timer = 0
 
 def main():
 	
+	check_packages()
 	config_setup()
 	GPIO.setmode(GPIO.BOARD)
 	
@@ -622,6 +624,13 @@ def update_config(option_changed):
 	print("-------Writing config-------")
 	with open("config.ini", "w") as config_file:
 		config.write(config_file)
+		
+def check_packages():
+	try:
+		subprocess.check_output(["dpkg", "-s", "i2c-tools"])
+	except subprocess.CalledProcessError:
+		subprocess.call(["sudo", 'apt-get', 'install', 'i2c-tools']) 
+		
 				
 if __name__ == '__main__':
 	GPIO.setmode(GPIO.BOARD)
