@@ -6,6 +6,7 @@ A temperature/VOC sensor and a custom PCB controller for the fans and strip LEDs
 Components:
 
 Raspberry Pi 4 Model B
+
 [Sensirion Particle, VOC, Humidity, and Temperature Sensor](https://www.sparkfun.com/products/23715)\n
 [waveshare 4 inch HDMI LCD 800x480](https://www.amazon.com/gp/product/B07P5H2315/)
 [Geekworm GPIO Extender](https://www.amazon.com/gp/product/B0BDF48FWM/)
