@@ -1,2 +1,0 @@
-source .venv/bin/activate # Need to add new Pip files for pyinstaller
-pyinstaller --onefile <filename> # compile executable
