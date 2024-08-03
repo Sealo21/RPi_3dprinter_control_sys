@@ -9,7 +9,10 @@ A temperature/VOC sensor and a custom PCB controller for the fans and strip LEDs
   - [Geekworm GPIO Extender](https://www.amazon.com/gp/product/B0BDF48FWM/)  
   - [SamIdea 2-Pack 40pin Male to Female IDC GPIO](https://www.amazon.com/gp/product/B07CGM83QL/)  
   - [Micro HDMI Cable](https://www.sparkfun.com/products/15796)  
-  - Any 3 or 4 pin PC fan [I am using Noctua NF-A8 PWM](https://noctua.at/en/nf-a8-pwm)  
+  - Any 2, 3, or 4 pin PC fan [I am using Noctua NF-A8 PWM](https://noctua.at/en/nf-a8-pwm)  
   - Any SMD5050 strip LED [Led Strip Lights](https://www.amazon.com/gp/product/B08JSQVBDQ/)
 
 # Installation
+
+Download the files marked "RPi_3dprinter_control_sys_main"
+Run the executable named main in the file 'dist'
