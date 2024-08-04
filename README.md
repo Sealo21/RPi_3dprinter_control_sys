@@ -1,7 +1,7 @@
 # RPi_3dprinter_control_sys
 Environment controller for a 3D printing enclosure using a Raspberry Pi \
 Uses a temperature/VOC sensor and a custom PCB controller for the fans and strip LEDs controlled by a Raspberry Pi \
-This project is a work-in-progress. It is functional but still a beta.
+This project is a work-in-progress. It is functional...but still a beta.
 
 # Components
   - Raspberry Pi 4 Model B  
@@ -27,4 +27,10 @@ Save and restart your RPi
 6. Once these settings are confirmed the program should start with a terminal followed by a window
 
 # Hardware Setup
+
+There are a few options for the hardware of your controller \
+A breadboard using the design schematics from the file 'LED_FAN_CONTROLLER.kicad_sch' \
+You may need to download and install Kicad to view this schematic.
+
+Here are the design requirements the breadboard this project:
 
