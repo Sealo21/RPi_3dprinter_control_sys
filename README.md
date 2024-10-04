@@ -40,5 +40,8 @@ Here are the design requirements to breadboard this project:
 
 The sensors I recieved do not have a standard coloring scheme. \
 
+<img src="https://github.com/Sealo21/RPi_3dprinter_control_sys/blob/main/images/GPIO-Pinout-Diagram.png" width="750" />
+<img src="https://github.com/Sealo21/RPi_3dprinter_control_sys/blob/main/images/SEN5X_pinout.png" width="500" />
+<img src="https://github.com/Sealo21/RPi_3dprinter_control_sys/blob/main/images/Screenshot%202024-10-03%20214042.png" width="500" />
 
 More information about this installation can be found [here](https://github.com/Sensirion/raspberry-pi-i2c-sen5x)
