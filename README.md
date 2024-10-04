@@ -84,8 +84,9 @@ I have made a table below to list where the pins must go and their color.
 |  5               |  SEL     | Interface Select| Red     |  Pin 9 (GND)             |
 |  6               |  NC      | Do Not Connect  | Brown   |  NC                      |
 
-If the device is not recognized by the system, connect the VCC to 3.3V pin and then back to 5V. The device can function on both 3.3V and 5V but 5V is recommended by the manufacturer.
-Use the i2c detect command to check connected i2c devices.
+If the device is not recognized by the system, connect the VCC to 3.3V pin and then back to 5V. \
+The device can function on both 3.3V and 5V but 5V is recommended by the manufacturer. \
+Use the i2cdetect command to check connected I2C devices.
 
 ```command line
 i2cdetect -y 1
