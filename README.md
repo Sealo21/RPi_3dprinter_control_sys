@@ -1,6 +1,6 @@
 # RPi_3dprinter_control_sys
-Environment controller for a 3D printing enclosure using a Raspberry Pi \
-Uses a temperature/VOC sensor and a custom PCB controller for the fans and strip LEDs controlled by a Raspberry Pi \
+Environment controller for a 3D printing enclosure using a Raspberry Pi. \
+Uses a temperature/VOC sensor and a custom PCB controller for the fans and strip LEDs controlled by a Raspberry Pi. \
 This project is a work-in-progress. It is functional...but still a beta.
 
 # Components
