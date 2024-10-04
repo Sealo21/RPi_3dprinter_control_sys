@@ -11,7 +11,7 @@ This project is a work-in-progress. It is functional...but still a beta.
   - [SamIdea 2-Pack 40pin Male to Female IDC GPIO](https://www.amazon.com/gp/product/B07CGM83QL/)  
   - [Micro HDMI Cable](https://www.sparkfun.com/products/15796)  
   - Any 2 or 4 pin PC fan [I am using Noctua NF-A8 PWM](https://noctua.at/en/nf-a8-pwm)  
-  - Any SMD5050 strip LED [Led Strip Lights](https://www.amazon.com/gp/product/B08JSQVBDQ/)
+  - Any SMD5050 strip LED [LED Strip Lights](https://www.amazon.com/gp/product/B08JSQVBDQ/)
 
 # Software Installation
 
