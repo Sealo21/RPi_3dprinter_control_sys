@@ -15,8 +15,8 @@ This project is a work-in-progress. It is functional...but still a beta.
 
 # Software Installation
 
-Install the latest version of Raspian OS on your Raspberry Pi \
-Edit your configuration to enable 'I2C' and 'Remote GPIO' under the interfaces tab \
+[Install the latest version of Raspian OS](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up) on your Raspberry Pi \
+[Edit your configuration](https://www.raspberrypi.com/documentation/computers/configuration.html) to enable 'I2C' and 'Remote GPIO' under the interfaces tab \
 Save and restart your RPi 
 
 1. Download the files marked "RPi_3dprinter_control_sys_main" 
@@ -32,5 +32,13 @@ There are a few options for the hardware of your controller \
 A breadboard using the design schematics from the file 'LED_FAN_CONTROLLER.kicad_sch' \
 You may need to download and install Kicad to view this schematic.
 
-Here are the design requirements the breadboard this project:
+Here are the design requirements to breadboard this project:
 
+
+
+# Installing the Sen55 Sensor
+
+The sensors I recieved do not have a standard coloring scheme. \
+
+
+More information about this installation can be found [here](https://github.com/Sensirion/raspberry-pi-i2c-sen5x)
