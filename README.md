@@ -42,6 +42,14 @@ The sensors I recieved do not have a standard coloring scheme. \
 
 <img src="https://github.com/Sealo21/RPi_3dprinter_control_sys/blob/main/images/GPIO-Pinout-Diagram.png" width="750" />
 <img src="https://github.com/Sealo21/RPi_3dprinter_control_sys/blob/main/images/SEN5X_pinout.png" width="500" />
-<img src="https://github.com/Sealo21/RPi_3dprinter_control_sys/blob/main/images/Screenshot%202024-10-03%20214042.png" width="500" />
+
+|  Pin (On Sensor) |  Name    |  Description    |  Color  |  Pin Placement (On RPi)  |
+| ---------------- |:--------:|:-----------------:|:-------:|:------------------------:|
+|  1               |  VCC     | Supply Voltage  | Green   |  Pin 2 (5V)              |
+|  2               |  GND     | Ground          | Blue    |  Pin 6 (GND)             |
+|  3               |  SDA     | I2C: Data       | Yellow  |  Pin 3 (SDA)             |
+|  4               |  SCL     | I2C: Clock      | Black   |  Pin 5 (SCL)             |
+|  5               |  SEL     | Interface Select| Red     |  Pin 9 (GND)             |
+|  6               |  NC      | Do Not Connect  | Brown   |  NC                      |
 
 More information about this installation can be found [here](https://github.com/Sensirion/raspberry-pi-i2c-sen5x)
